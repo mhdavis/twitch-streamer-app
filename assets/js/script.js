@@ -15,7 +15,7 @@ function getStreamInfo() {
     const callback = '/?client_id=7ovzb35ek17m0n3ycf1kcghjw2t4ooe&callback=?',
           twitchChannel = 'https://api.twitch.tv/kraken/channels/' + user + callback,
           twitchStream = 'https://api.twitch.tv/kraken/streams/' + user + callback,
-          offlineLogo = 'https://ih1.redbubble.net/image.105179497.9669/flat,800x800,075,t.jpg';
+          offlineLogo = '../img/biblethump.jpg';
 
     $.getJSON(twitchChannel, function(channel) {
       // if account doesn't exist
