@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>Twitch Streamer App</title>
+
+    <!-- Materialize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <!-- Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Raleway" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+  <body>
+    <div id="top" class="container">
+      <header>
+        <div class='row center-align'>
+          <img id='twitch-logo' src='http://www.trionworlds.com/defiance/wp-content/uploads/2013/09/Twitch_Logo_White-560x185.png'>
+        </div>
+          <h2 id='title' class='center'>Streamers</h2>
+      </header>
+    </div>
+
+    <div id="search-bar" class="container">
+      <div class="row">
+        <div class="col s1 offset-s2 right-align">
+          <a class="dropdown-button btn left-align hoverable" href="#" data-activates="filter-menu" data-constrainwidth="false">
+            <i class="material-icons filter-list-icon">filter_list</i></a>
+          <ul id="filter-menu" class="dropdown-content">
+            <li id="filter-all" class="filter status-filter-all">
+              <a href="#!" class="black-text"><i class="material-icons left">group</i>All</a>
+            </li>
+            <li id="filter-online" class="filter status-filter-online">
+              <a href="#!"><i class="material-icons left">person</i>Online</a>
+            </li>
+            <li id="filter-offline" class="filter status-filter-offline">
+              <a href="#!" class="grey-text text-darken-2"><i class="material-icons left">person_outline</i>Offline</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col s6">
+          <nav>
+            <div class="nav-wrapper hoverable">
+              <form>
+                <div class="input-field">
+                  <input id="search-input" type="search" required>
+                  <label for="search"><i class="material-icons">search</i></label>
+                  <i class="material-icons">close</i>
+                </div>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div id="user-list">
+          <span id="online"></span>
+          <span id="offline"></span>
+          <span id="closed"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="row center-align back-to-top">
+      <a href="#top" class="btn-floating btn-large waves-effect waves-light hoverable">
+        <i class="material-icons arrow-up-icon">keyboard_arrow_up</i>
+      </a>
+    </div>
+  </body>
+
+  <footer class="footer">
+    <div class="container center-align">
+      <div class="footer-text row">
+        <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> Michael Davis. All rights reserved. Developed for the freeCodeCamp Front-end Development Challenge: <a href="https://freecodecamp.com/challenges/zipline-use-the-twitchtv-json-api" target="_blank">Use the Twitch.tv JSON API</a></p>
+      </div>
+      <div class="footer-logos row">
+        <a href="https://github.com/mhdavis" target="_blank"><i id="social-gh" class="fa fa-github fa-2x social-btn"></i></a>
+        <a href="https://twitter.com/M_HDavis" target="_blank"><i id="social-tw" class="fa fa-twitter fa-2x social-btn"></i></a>
+        <a href="https://www.linkedin.com/in/michael-davis-1b31b7124?trk=nav_responsive_tab_profile_pic" target="_blank"><i id="social-ln" class="fa fa-linkedin fa-2x social-btn"></i></a>
+        <a href="https://codepen.io/mhdavis/" target="_blank"><i id="social-cp" class="fa fa-codepen fa-2x social-btn"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <!-- Materialize JS -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js">
+  </script>
+  <!-- JS -->
+  <script src="assets/js/script.js" type="text/javascript"></script>
+</html>
