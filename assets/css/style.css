@@ -1,0 +1,154 @@
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #6441A4;
+}
+
+/*--- Main Title Logo ---*/
+#twitch-logo {
+  margin-top: 70px;
+}
+
+#title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+/*--- Filter Buttons ---*/
+#search-bar .dropdown-button {
+  background-color: #8c6dc5;
+  height: 64px;
+  width: 3em;
+  padding: 0.5em;
+}
+
+#search-bar .filter-list-icon {
+  padding-top: 0.3em;
+}
+
+.dropdown-content li>a, .dropdown-content li>span {
+  font-size: 1em;
+  color: #43a047;
+}
+
+/*--- Search Bar ---*/
+#search-bar {
+  margin-bottom: 15px;
+}
+
+#search-bar .input-field {
+  background-color: #8c6dc5;
+}
+
+/*--- Cards ---*/
+.card .display-name {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.3em;
+}
+
+/*--- Page Buttons ---*/
+.stream-link,
+.stream-link:visited {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 15px;
+  background-color: #6441A4;
+}
+
+.stream-link:hover {
+  background-color: #8c6dc5;
+}
+
+.stream-link:active {
+  background-color: #432b6d;
+}
+
+.stream-button {
+  margin-top: 2em
+}
+
+.arrow-up-icon,
+.arrow-up-icon:active,
+.arrow-up-icon:visited {
+  background-color: #8c6dc5;
+}
+
+/*--- Card Content ---*/
+.vert-icon {
+  color: #6441A4;
+  font-size: 45px;
+}
+
+#online .card-content {
+  border-top: 15px solid #43a047;
+}
+
+#offline .card-content {
+  border-top: 15px solid #bdbdbd;
+}
+
+#closed .card-content {
+  border-top: 15px solid #e53935;
+}
+
+/*--- Footer ---*/
+.footer {
+  background-color: #232127;
+  border-top: 2px solid black;
+  bottom: 0;
+  color: #a49fad;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3em;
+  max-height: 15em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+}
+
+.footer-text a {
+  display: inline-block;
+  color: #a49fad;
+  border-bottom-style: solid;
+  border-bottom-width: .1em;
+  border-bottom-color: #6441A5;
+  line-height: 1em;
+}
+
+/*--- Social Media Buttons ---*/
+.social-btn {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.social-btn:hover {
+     -webkit-transform: scale(2.0);
+     -moz-transform: scale(2.0);
+     -o-transform: scale(2.0);
+ }
+ .social-btn {
+     -webkit-transform: scale(1.2);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.6);
+     -o-transform: scale(0.6);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+     color: white;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ #social-gh:hover {
+     color: #545454;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-ln:hover {
+     color: #0077b5;
+ }
+ #social-cp:hover {
+     color: #000000;
+ }
